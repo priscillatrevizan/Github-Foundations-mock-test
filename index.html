@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,379 +8,108 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* Reset e Estilos Base */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #111827; /* bg-gray-900 */
-            color: #f9fafb; /* text-white */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            padding: 1rem;
-        }
-
-        /* Container Principal */
-        .quiz-container {
-            width: 100%;
-            max-width: 48rem; /* max-w-2xl */
-            margin: auto;
-        }
-
-        /* Telas (Inicial, Quiz, Resultados) */
-        .screen {
-            background-color: #1f2937; /* bg-gray-800 */
-            padding: 2rem;
-            border-radius: 0.75rem; /* rounded-xl */
-            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-        }
-
-        .hidden {
-            display: none;
-        }
-
-        /* Tela Inicial */
-        .start-screen {
-            text-align: center;
-        }
-
-        .main-title {
-            font-size: 2.25rem; /* text-4xl */
-            line-height: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-        }
-
-        .subtitle {
-            color: #d1d5db; /* text-gray-300 */
-            margin-bottom: 2rem;
-        }
-
-        /* Botões */
-        .button {
-            font-weight: 700;
-            padding: 0.75rem 1.5rem;
-            border-radius: 0.5rem; /* rounded-lg */
-            border: none;
-            cursor: pointer;
-            transition: all 0.2s ease-in-out;
-            width: 100%;
-        }
-
-        .start-button {
-            background-color: #2563eb; /* bg-blue-600 */
-            color: white;
-            padding-top: 0.75rem;
-            padding-bottom: 0.75rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            font-size: 1.125rem; /* text-lg */
-            width: auto;
-        }
-
-        .start-button:hover {
-            background-color: #1d4ed8; /* hover:bg-blue-700 */
-            transform: scale(1.05);
-        }
-
-        .next-button {
-            background-color: #4b5563; /* bg-gray-600 */
-            color: white;
-            margin-top: 2rem;
-        }
-
-        .next-button:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .restart-button {
-            background-color: #2563eb; /* bg-blue-600 */
-            color: white;
-            margin-top: 2rem;
-        }
-
-        .restart-button:hover {
-            background-color: #1d4ed8; /* hover:bg-blue-700 */
-            transform: scale(1.05);
-        }
-        
-        /* Tela do Quiz */
-        .progress-container {
-            width: 100%;
-            background-color: #374151; /* bg-gray-700 */
-            border-radius: 9999px; /* rounded-full */
-            height: 0.625rem; /* h-2.5 */
-            margin-bottom: 1rem;
-        }
-
-        .progress-bar {
-            background-color: #2563eb; /* bg-blue-600 */
-            height: 100%;
-            border-radius: 9999px;
-            width: 0%;
-        }
-
-        .question-counter {
-            font-size: 0.875rem; /* text-sm */
-            color: #9ca3af; /* text-gray-400 */
-            margin-bottom: 0.5rem;
-        }
-
-        .question-text {
-            font-size: 1.5rem; /* text-2xl */
-            font-weight: 600;
-            margin-bottom: 1.5rem;
-            min-height: 100px;
-        }
-        
-        .question-text code {
-            background-color: #374151;
-            color: #facc15;
-            border-radius: 0.25rem;
-            padding: 2px 6px;
-            font-size: 0.9em;
-        }
-
-        .options-container {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-
-        .option-button {
-            background-color: #374151; /* bg-gray-700 */
-            color: white;
-            text-align: left;
-            border: 2px solid transparent;
-        }
-
-        .option-button:hover {
-            background-color: #4b5563; /* hover:bg-gray-600 */
-            transform: scale(1.02);
-        }
-
-        .option-button:active {
-            transform: scale(0.98);
-            background-color: #5d6878;
-        }
-
-        .option-button.selected {
-            background-color: #2563eb; /* blue-600 */
-            color: white;
-            border-color: #93c5fd; /* blue-300, for highlight */
-        }
-        
-        /* Tela de Resultados */
-        .results-screen h2 {
-            text-align: center;
-        }
-        .results-screen > p {
-            text-align: center;
-        }
-
-        .results-summary {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 1rem;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-
-        @media (min-width: 768px) {
-            .results-summary {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-        
-        .results-card {
-            background-color: #374151; /* bg-gray-700 */
-            padding: 1rem;
-            border-radius: 0.5rem;
-        }
-
-        .results-card p:first-child {
-            font-size: 1.125rem; /* text-lg */
-            color: #9ca3af; /* text-gray-400 */
-        }
-
-        .results-card p:last-child {
-            font-size: 2.25rem; /* text-4xl */
-            font-weight: 700;
-            color: #60a5fa; /* text-blue-400 */
-        }
-
-        .results-title {
-            font-size: 1.25rem; /* text-xl */
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        .correction-container {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            max-height: 24rem; /* max-h-96 */
-            overflow-y: auto;
-            padding-right: 0.5rem;
-        }
-        
-        .correction-card {
-            padding: 1rem;
-            border-radius: 0.5rem;
-            border-width: 2px;
-            background-color: #374151; /* bg-gray-700 */
-        }
-
-        .correction-card.correct {
-            border-color: #22c55e;
-        }
-        .correction-card.incorrect {
-            border-color: #ef4444;
-        }
-
-        .correction-card p {
-             margin-bottom: 0.5rem;
-        }
-        .correction-card p:first-child {
-            font-weight: 600;
-            font-size: 1.125rem;
-        }
-        .correction-card .user-answer {
-             font-size: 0.875rem;
-        }
-        .correction-card .user-answer.correct {
-            color: #4ade80;
-        }
-        .correction-card .user-answer.incorrect {
-            color: #f87171;
-        }
-        .correction-card .correct-answer {
-            font-size: 0.875rem;
-            color: #4ade80;
-        }
-        .correction-card code {
-            background-color: #4b5563;
-            color: #facc15;
-            border-radius: 0.25rem;
-            padding: 2px 6px;
-            font-size: 0.9em;
-        }
-    </style>
+    <link rel="stylesheet" href="./style/css/main.css">
 </head>
+
 <body>
+    <main>
+        <div id="quiz-container" class="quiz-container">
 
-    <div id="quiz-container" class="quiz-container">
-
-        <!-- Tela Inicial -->
-        <div id="start-screen" class="screen start-screen">
-            <h1 class="main-title">Simulado: GitHub Foundations</h1>
-            <p class="subtitle">Teste seus conhecimentos com 75 questões sorteadas e prepare-se para a certificação.</p>
-            <button id="start-btn" class="button start-button">
-                Começar o Quiz
-            </button>
-        </div>
-
-        <!-- Tela do Quiz -->
-        <div id="quiz-screen" class="screen quiz-screen hidden">
-            <div class="progress-container">
-                <div id="progress-bar" class="progress-bar"></div>
-            </div>
-            <p id="question-counter" class="question-counter"></p>
-            <h2 id="question-text" class="question-text"></h2>
-            <div id="options-container" class="options-container">
-                <!-- Opções serão inseridas aqui via JS -->
-            </div>
-            <button id="next-btn" class="button next-button" disabled>
-                Próxima Pergunta
-            </button>
-        </div>
-
-        <!-- Tela de Resultados -->
-        <div id="results-screen" class="screen results-screen hidden">
-            <h2 class="main-title">Quiz Finalizado!</h2>
-            <p class="subtitle">Confira seu desempenho abaixo.</p>
-            
-            <div class="results-summary">
-                <div class="results-card">
-                    <p>Pontuação</p>
-                    <p id="score-text"></p>
+            <!-- Tela Inicial -->
+            <div id="start-screen">
+                <div class="start-screen-top-buttons">
+                    <a href="./gpt_chat_fonts.html">
+                        <img src="./style/icons/list.svg" alt="Icone de Lista">
+                        ver fontes das questões</a>
+                    <a href="https://github.com/priscillatrevizan/Github-Foundations-mock-test" target="_blank">
+                        <img src="./style/icons/github.svg" alt="Icone Github">
+                        conhecer o projeto</a>
+                    <a href="https://github.com/priscillatrevizan/Github-Foundations-mock-test/issues" class="github-link" target="_blank">
+                        <img src="./style/icons/error.svg" alt="GitHub Logo">
+                        relatar um erro</a>
                 </div>
-                <div class="results-card">
-                    <p>Tempo Total</p>
-                    <p id="time-text"></p>
+                <div class="screen start-screen">
+                    <div class="start-title">
+                        <h1 class="main-title">GitHub Foundations Certification</h1>
+                        <img src="./style/img/image.png" alt="GitHub Foundations Logo" class="github-logo">
+                    </div>
+                    <p class="subtitle"> Este é um simulado <span>não oficial</span>, com um banco de 375 questões, onde
+                        75 questões são sorteadas para seu teste. Ao fim do questionário, você verá seu desempenho, as
+                        questões corrigidas e o seu
+                        tempo de resposta.</p>
+                    <h2 class="main-start">Teste seus conhecimentos e prepare-se para a certificação!</h2>
+                    <button id="start-btn" class="button start-button">
+                        Começar o Quiz
+                    </button>
                 </div>
             </div>
 
-            <h3 class="results-title">Correção das Respostas</h3>
-            <div id="correction-container" class="correction-container">
-                <!-- Correção será inserida aqui via JS -->
+            <!-- Tela do Quiz -->
+            <div id="quiz-screen" class="screen quiz-screen hidden">
+                <div class="progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <p id="question-counter" class="question-counter"></p>
+                <h2 id="question-text" class="question-text"></h2>
+                <div id="options-container" class="options-container">
+                    <!-- Opções serão inseridas aqui via JS -->
+                </div>
+                <button id="next-btn" class="button next-button" disabled>
+                    Próxima Pergunta
+                </button>
             </div>
-            <button id="restart-btn" class="button restart-button">
-                Tentar Novamente
-            </button>
+
+            <!-- Tela de Resultados -->
+            <div id="results-screen" class="screen results-screen hidden">
+                <h2 class="main-title">Quiz Finalizado!</h2>
+                <p class="subtitle">Confira seu desempenho abaixo.</p>
+
+                <div class="results-summary">
+                    <div class="results-card">
+                        <p>Pontuação</p>
+                        <p id="score-text"></p>
+                    </div>
+                    <div class="results-card">
+                        <p>Tempo Total</p>
+                        <p id="time-text"></p>
+                    </div>
+                </div>
+
+                <h3 class="results-title">Correção das Respostas</h3>
+                <div id="correction-container" class="correction-container">
+                    <!-- Correção será inserida aqui via JS -->
+                </div>
+                <button id="restart-btn" class="button restart-button">
+                    Tentar Novamente
+                </button>
+            </div>
+
         </div>
 
-    </div>
 
+    </main>
+    <footer class="footer">
+        <div class="footer-link">
+            <p>Este site foi inicialmente desenvolvido com </p><a href="https://gemini.google.com/">Gemini</a>
+        </div>
+        <div class="footer-link">
+            <p>É composto por questões geradas por </p><a href="https://chatgpt.com/">Chat GPT</a>
+        </div>
+
+        <div class="footer-link">
+            <p>E foi pensado e aprimorado por </p><a href="https://www.linkedin.com/in/priscillatrevizan/">Priscilla Trevizan</a>
+        </div>
+    </footer>
     <script>
         const QUIZ_LENGTH = 75;
 
-        const quizData = [
-            // Questões originais
-            { question: "Qual é a principal diferença entre `git` e `GitHub`?", options: ["São a mesma coisa.", "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.", "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git.", "Git só funciona em Linux, enquanto o GitHub é multiplataforma."], answer: "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git." },
-            { question: "Qual sintaxe Markdown é usada para criar um link para `https://github.com` com o texto \"GitHub\"?", options: ["[GitHub](https://github.com)", "(GitHub)[https://github.com]", "<a href='https://github.com'>GitHub</a>", "link:GitHub(https://github.com)"], answer: "[GitHub](https://github.com)" },
-            { question: "Que tipo de conta GitHub é projetado para colaboração em equipe dentro de uma empresa?", options: ["Conta Pessoal (Personal)", "Conta de Organização (Organization)", "Conta Pro", "Conta de Gist"], answer: "Conta de Organização (Organization)" },
-            { question: "Qual é o principal propósito do GitHub Desktop?", options: ["Editar código diretamente no navegador.", "Fornecer uma interface gráfica (GUI) para interagir com repositórios Git.", "Gerenciar a cobrança e os usuários de uma organização.", "Automatizar fluxos de trabalho de CI/CD."], answer: "Fornecer uma interface gráfica (GUI) para interagir com repositórios Git." },
-            { question: "Um commit no Git representa:", options: ["Uma branch de desenvolvimento.", "Um repositório inteiro.", "Um instantâneo (snapshot) das alterações em um determinado ponto no tempo.", "Um pedido para mesclar código."], answer: "Um instantâneo (snapshot) das alterações em um determinado ponto no tempo." },
-            { question: "Qual plano do GitHub é necessário para ter repositórios `internal` (visíveis apenas para membros da empresa)?", options: ["GitHub Free", "GitHub Pro", "GitHub Team", "GitHub Enterprise"], answer: "GitHub Enterprise" },
-            { question: "O que o comando `git remote` faz?", options: ["Renomeia uma branch local.", "Lista, adiciona ou remove conexões com repositórios remotos.", "Remove arquivos do staging area.", "Desfaz o último commit."], answer: "Lista, adiciona ou remove conexões com repositórios remotos." },
-            { question: "O que é o \"GitHub Flow\"?", options: ["Um fluxo de trabalho onde todo o trabalho é feito diretamente na branch `main`.", "Um fluxo de trabalho baseado em branches, onde cada nova feature ou correção é feita em uma branch separada e integrada via Pull Request.", "Um nome antigo para GitHub Actions.", "O processo de inscrição em uma conta GitHub."], answer: "Um fluxo de trabalho baseado em branches, onde cada nova feature ou correção é feita em uma branch separada e integrada via Pull Request." },
-            { question: "Qual das seguintes opções é uma funcionalidade do GitHub Mobile?", options: ["Executar testes de CI/CD.", "Editar arquivos de configuração `devcontainer.json`.", "Revisar código e mesclar Pull Requests.", "Acessar um terminal completo do Codespaces."], answer: "Revisar código e mesclar Pull Requests." },
-            { question: "Qual arquivo é comumente usado para definir diretrizes sobre como contribuir para um projeto?", options: ["LICENSE", "README.md", "CONTRIBUTING.md", "CODEOWNERS"], answer: "CONTRIBUTING.md" },
-            { question: "O que o comando `git clone` faz?", options: ["Cria uma nova branch.", "Cria uma cópia local de um repositório remoto.", "Cria um fork de um repositório.", "Envia alterações locais para o repositório remoto."], answer: "Cria uma cópia local de um repositório remoto." },
-            { question: "Onde um usuário pode visualizar gráficos sobre a frequência de código e atividade de contribuidores de um repositório?", options: ["Na aba \"Actions\".", "Na aba \"Settings\".", "Na aba \"Insights\".", "Na aba \"Projects\"."], answer: "Na aba \"Insights\"." },
-            { question: "Qual é a principal diferença entre uma GitHub Issue e uma GitHub Discussion?", options: ["Issues são públicas, Discussions são privadas.", "Issues são para rastrear trabalho acionável (bugs, tarefas), enquanto Discussions são para conversas da comunidade.", "Apenas proprietários do repositório podem criar Discussions.", "Discussions podem ser atribuídas a usuários, mas Issues não."], answer: "Issues são para rastrear trabalho acionável (bugs, tarefas), enquanto Discussions são para conversas da comunidade." },
-            { question: "O que é um \"draft pull request\"?", options: ["Um PR que foi automaticamente rejeitado.", "Um PR que está pronto para revisão e merge.", "Um PR que ainda está em andamento e não está pronto para revisão formal.", "Um PR que só pode ser visualizado pelo seu autor."], answer: "Um PR que ainda está em andamento e não está pronto para revisão formal." },
-            { question: "Como você pode vincular um Pull Request a uma Issue para que a Issue seja fechada automaticamente no merge?", options: ["Mencionando o número da Issue no título do PR.", "Usando uma palavra-chave como `fixes #123` na descrição do PR.", "Atribuindo o PR e a Issue à mesma pessoa.", "Adicionando a mesma label a ambos."], answer: "Usando uma palavra-chave como `fixes #123` na descrição do PR." },
-            { question: "Qual é o propósito do GitHub Pages?", options: ["Gerenciar projetos em um quadro Kanban.", "Hospedar sites estáticos diretamente de um repositório GitHub.", "Fornecer documentação no estilo Wiki.", "Armazenar trechos de código (snippets)."], answer: "Hospedar sites estáticos diretamente de um repositório GitHub." },
-            { question: "O que acontece quando você \"aprova\" um Pull Request?", options: ["O PR é mesclado automaticamente.", "Você registra sua concordância com as alterações, contribuindo para os requisitos de merge.", "O autor do PR recebe uma notificação de erro.", "Uma nova branch é criada a partir do PR."], answer: "Você registra sua concordância com as alterações, contribuindo para os requisitos de merge." },
-            { question: "O que é um \"gist\"?", options: ["Um repositório GitHub completo.", "Uma maneira de compartilhar trechos de código ou notas.", "Um nome alternativo para uma branch.", "Uma ferramenta de automação."], answer: "Uma maneira de compartilhar trechos de código ou notas." },
-            { question: "Qual das seguintes opções é um status de revisão de código em um Pull Request?", options: ["Comment (Comentar)", "Request Changes (Solicitar Alterações)", "Approve (Aprovar)", "Todas as anteriores."], answer: "Todas as anteriores." },
-            { question: "Como você pode receber notificações sobre a atividade em um repositório que não é seu?", options: ["Fazendo um fork do repositório.", "Clicando no botão \"Watch\".", "Dando uma \"star\" no repositório.", "Clonando o repositório."], answer: "Clicando no botão \"Watch\"." },
-            { question: "O que são `labels` em GitHub Issues?", options: ["O título da issue.", "Etiquetas para categorizar e filtrar issues.", "As pessoas atribuídas à issue.", "A data de criação da issue."], answer: "Etiquetas para categorizar e filtrar issues." },
-            { question: "O que é um `milestone`?", options: ["Uma forma de agrupar issues e pull requests para rastrear o progresso em direção a um objetivo maior, como uma versão de software.", "Uma revisão de código obrigatória.", "Um tipo especial de branch.", "Um relatório de segurança."], answer: "Uma forma de agrupar issues e pull requests para rastrear o progresso em direção a um objetivo maior, como uma versão de software." },
-            { question: "Qual é a função de um `issue template`?", options: ["Fechar issues automaticamente.", "Fornecer uma estrutura pré-definida para quem for abrir uma nova issue.", "Atribuir issues automaticamente a um membro da equipe.", "Converter uma issue em uma discussion."], answer: "Fornecer uma estrutura pré-definida para quem for abrir uma nova issue." },
-            { question: "Onde você pode criar uma Wiki para documentação detalhada de um projeto?", options: ["Na aba \"Projects\" do repositório.", "Na aba \"Wiki\" do repositório.", "Criando um gist especial.", "Na aba \"Settings\" do seu perfil."], answer: "Na aba \"Wiki\" do repositório." },
-            { question: "O que é o GitHub Actions?", options: ["Uma ferramenta de edição de código no navegador.", "Uma plataforma para automatizar fluxos de trabalho de desenvolvimento, como CI/CD.", "Um assistente de codificação baseado em IA.", "Um ambiente de desenvolvimento na nuvem."], answer: "Uma plataforma para automatizar fluxos de trabalho de desenvolvimento, como CI/CD." },
-            { question: "O que é o GitHub Copilot?", options: ["O mascote do GitHub.", "Uma ferramenta de gerenciamento de projetos.", "Um programador em par baseado em IA que sugere código.", "Um sistema de verificação de segurança."], answer: "Um programador em par baseado em IA que sugere código." },
-            { question: "Qual arquivo é usado para configurar um ambiente de desenvolvimento personalizado no GitHub Codespaces?", options: ["workflow.yml", "package.json", "devcontainer.json", "Dockerfile"], answer: "devcontainer.json" },
-            { question: "Onde você pode encontrar GitHub Actions pré-construídas para usar em seus fluxos de trabalho?", options: ["No GitHub Gists.", "No GitHub Marketplace.", "Na documentação do Git.", "No seu perfil do GitHub."], answer: "No GitHub Marketplace." },
-            { question: "Qual é a principal vantagem do GitHub Codespaces?", options: ["Fornecer um ambiente de desenvolvimento consistente e pré-configurado na nuvem, acessível de qualquer lugar.", "Analisar o código em busca de vulnerabilidades.", "Sugerir automaticamente correções para bugs.", "Publicar um site estático."], answer: "Fornecer um ambiente de desenvolvimento consistente e pré-configurado na nuvem, acessível de qualquer lugar." },
-            { question: "Qual dos seguintes layouts NÃO é uma opção nativa no GitHub Projects?", options: ["Board (Quadro)", "Table (Tabela)", "Roadmap (Roteiro)", "Mind Map (Mapa Mental)"], answer: "Mind Map (Mapa Mental)" },
-            { question: "O que são \"Saved Replies\"?", options: ["Commits que foram salvos, mas não enviados.", "Comentários pré-escritos que podem ser rapidamente inseridos em issues e pull requests.", "Rascunhos de issues.", "Templates de repositório."], answer: "Comentários pré-escritos que podem ser rapidamente inseridos em issues e pull requests." },
-            { question: "Como o GitHub Projects se integra com Issues e Pull Requests?", options: ["A integração é apenas de mão única, do projeto para as issues.", "Eles não se integram.", "A integração é bidirecional; alterações em um são refletidas no outro.", "Apenas issues podem ser adicionadas a um projeto, não pull requests."], answer: "A integração é bidirecional; alterações em um são refletidas no outro." },
-            { question: "O que é uma \"branch protection rule\"?", options: ["Uma regra que impede a criação de novas branches.", "Um conjunto de regras para uma branch que pode exigir revisões de PR ou a passagem de status checks antes do merge.", "Uma permissão que protege a branch contra visualização.", "Uma forma de arquivar branches antigas."], answer: "Um conjunto de regras para uma branch que pode exigir revisões de PR ou a passagem de status checks antes do merge." },
-            { question: "Qual ferramenta do GitHub ajuda a detectar segredos, como chaves de API, que foram acidentalmente commitados em um repositório?", options: ["Dependabot", "CodeQL", "Secret Scanning", "2FA"], answer: "Secret Scanning" },
-            { question: "Qual é a recomendação de segurança mais básica para todas as contas GitHub?", options: ["Usar um nome de usuário complexo.", "Habilitar a Autenticação de Dois Fatores (2FA).", "Manter todos os repositórios privados.", "Nunca colaborar com outras pessoas."], answer: "Habilitar a Autenticação de Dois Fatores (2FA)." },
-            { question: "Qual nível de permissão de repositório permite que um usuário mescle pull requests?", options: ["Read (Leitura)", "Triage", "Write (Escrita)", "Maintain (Manutenção)"], answer: "Maintain (Manutenção)" },
-            { question: "O que é \"InnerSource\"?", options: ["O código-fonte interno do GitHub.", "A prática de aplicar princípios de código aberto dentro de uma organização privada.", "Contribuir para projetos de código aberto de forma anônima.", "Uma fonte de financiamento para projetos."], answer: "A prática de aplicar princípios de código aberto dentro de uma organização privada." },
-            { question: "Qual é a principal diferença entre \"fork\" e \"clone\"?", options: ["Fork cria uma cópia local; clone cria uma cópia na sua conta GitHub.", "Fork cria uma cópia na sua conta GitHub para propor alterações; clone cria uma cópia local.", "Fork é para repositórios públicos; clone é para privados.", "Não há diferença."], answer: "Fork cria uma cópia na sua conta GitHub para propor alterações; clone cria uma cópia local." },
-            { question: "O que é o programa GitHub Sponsors?", options: ["Um programa de publicidade no GitHub.", "Uma forma de apoiar financeiramente desenvolvedores e organizações de código aberto.", "Uma conferência anual do GitHub.", "Um nível de suporte técnico pago."], answer: "Uma forma de apoiar financeiramente desenvolvedores e organizações de código aberto." },
-            { question: "Como você pode tornar seu repositório mais fácil de ser encontrado por outros usuários?", options: ["Mantendo-o privado.", "Adicionando uma descrição clara e tópicos (topics) relevantes.", "Removendo o arquivo `README.md`.", "Desabilitando as issues."], answer: "Adicionando uma descrição clara e tópicos (topics) relevantes." },
-            { question: "O que o comando 'git init' faz? (1)", options: [ "Inicializa uma nova branch remota.", "Cria um novo commit.", "Inicializa um novo repositório Git local.", "Faz o push de arquivos para o GitHub." ], answer: "Inicializa um novo repositório Git local." },
-            { question: "Qual comando é usado para clonar um repositório Git? (2)", options: [ "git clone", "git download", "git fork", "git copy" ], answer: "git clone" },
-            { question: "O que faz o comando 'git status'? (3)", options: [ "Mostra o estado atual da branch de trabalho.", "Exibe as alterações salvas no repositório remoto.", "Cria uma nova branch.", "Apaga os arquivos que foram modificados." ], answer: "Mostra o estado atual da branch de trabalho." },
-            { question: "Qual é a principal diferença entre git e GitHub? (4)", options: [ "São a mesma coisa.", "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.", "Git só funciona em Linux, enquanto o GitHub é multiplataforma.", "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git." ], answer: "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git." }
-            // Adicione o resto das perguntas aqui...
-        ];
+        // Carregar questões dinamicamente do questions.json
+        let quizData = [];
+
+        async function loadQuestions() {
+            const response = await fetch('questions.json');
+            quizData = await response.json();
+        }
 
         // Elementos do DOM
         const startScreen = document.getElementById('start-screen');
@@ -394,7 +124,7 @@
         const optionsContainer = document.getElementById('options-container');
         const questionCounter = document.getElementById('question-counter');
         const progressBar = document.getElementById('progress-bar');
-        
+
         const scoreText = document.getElementById('score-text');
         const timeText = document.getElementById('time-text');
         const correctionContainer = document.getElementById('correction-container');
@@ -415,17 +145,24 @@
         }
 
         // Iniciar Quiz
-        startBtn.addEventListener('click', () => {
+        startBtn.addEventListener('click', async () => {
             startScreen.classList.add('hidden');
             quizScreen.classList.remove('hidden');
             startTime = new Date();
             currentQuestionIndex = 0;
             score = 0;
             userAnswers = [];
-            
+
+            if (quizData.length === 0) {
+                await loadQuestions();
+            }
+            if (quizData.length < QUIZ_LENGTH) {
+                alert('Não há questões suficientes no banco de dados.');
+                location.reload();
+                return;
+            }
             const shuffled = shuffleArray([...quizData]);
             sessionQuestions = shuffled.slice(0, QUIZ_LENGTH);
-            
             showQuestion();
         });
 
@@ -433,10 +170,15 @@
         function showQuestion() {
             resetState();
             const currentQuestion = sessionQuestions[currentQuestionIndex];
+            if (!currentQuestion) {
+                // Se não houver questão, mostra resultados
+                showResults();
+                return;
+            }
             questionText.innerHTML = currentQuestion.question.replace(/`([^`]+)`/g, '<code>$1</code>');
             questionCounter.textContent = `Pergunta ${currentQuestionIndex + 1} de ${QUIZ_LENGTH}`;
             progressBar.style.width = `${((currentQuestionIndex + 1) / QUIZ_LENGTH) * 100}%`;
-            
+
             const shuffledOptions = shuffleArray([...currentQuestion.options]);
             shuffledOptions.forEach(option => {
                 const button = document.createElement('button');
@@ -454,7 +196,7 @@
                 optionsContainer.removeChild(optionsContainer.firstChild);
             }
         }
-        
+
         // Selecionar Resposta
         function selectAnswer(e) {
             const selectedBtn = e.target;
@@ -462,7 +204,7 @@
                 button.classList.remove('selected');
             });
             selectedBtn.classList.add('selected');
-            
+
             userAnswers[currentQuestionIndex] = selectedBtn.innerText;
             nextBtn.disabled = false;
         }
@@ -491,7 +233,7 @@
             const minutes = Math.floor(timeDiff / 60);
             const seconds = timeDiff % 60;
             timeText.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-            
+
             scoreText.textContent = `${score} / ${QUIZ_LENGTH}`;
 
             correctionContainer.innerHTML = '';
@@ -501,9 +243,9 @@
 
                 const correctionCard = document.createElement('div');
                 correctionCard.classList.add('correction-card', isCorrect ? 'correct' : 'incorrect');
-                
+
                 let questionHTML = question.question.replace(/`([^`]+)`/g, '<code>$1</code>');
-                
+
                 let answersHTML = `
                     <p>${index + 1}. ${questionHTML}</p>
                     <p class="user-answer ${isCorrect ? 'correct' : 'incorrect'}">
@@ -514,7 +256,7 @@
                 if (!isCorrect) {
                     answersHTML += `<p class="correct-answer"><b>Resposta correta:</b> ${question.answer}</p>`;
                 }
-                
+
                 correctionCard.innerHTML = answersHTML;
                 correctionContainer.appendChild(correctionCard);
             });
@@ -528,4 +270,5 @@
 
     </script>
 </body>
+
 </html>
