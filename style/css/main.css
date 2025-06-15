@@ -31,14 +31,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:4px;
+    gap: 4px;
     color: #60a5fa;
     text-decoration: none;
     font-weight: 600;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    background-color: #1f2937; /* cor de fundo fixa */
-    transition: all 0.3s ease; 
+    background-color: #1f2937;
+    /* cor de fundo fixa */
+    transition: all 0.3s ease;
     cursor: pointer;
 }
 
@@ -160,6 +161,10 @@ body {
     border: 1px solid transparent;
     background-clip: padding-box, border-box;
     background-origin: border-box;
+}
+
+.restart-button {
+    margin: 20px 0;
 }
 
 .next-button {
@@ -525,8 +530,9 @@ footer {
 /* Estilos Responsivos */
 @media (max-width: 600px) {
     .start-screen-top-buttons {
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
+
     header {
         flex-direction: column;
         align-items: center;
@@ -583,6 +589,7 @@ footer {
     .question-text {
         font-size: 1.1rem;
         min-height: 60px;
+        width: 100%;
     }
 
     .options-container {
@@ -622,4 +629,17 @@ footer {
         gap: 24px;
         max-width: 100%;
     }
+
+  .screen {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+  .quiz-screen {
+    width: 600px;
+    max-width: 600px;
+    min-width: 600px;
+    margin: 0 auto;
+  }
 }
