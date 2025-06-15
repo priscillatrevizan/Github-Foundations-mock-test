@@ -1,2627 +1,1716 @@
 [
   {
-    "question": "O que o comando 'git init' faz?",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub?",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz?",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub?",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz?",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "Qual comando inicializa um novo repositório Git em um diretório local?",
+    "options": ["git start", "git init", "git new", "git create"],
+    "answer": "git init"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
-  },
-  {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  },
-  {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "O que o comando `git clone` faz?",
+    "options": ["Cria um novo branch", "Deleta um repositório", "Copia um repositório remoto para o local", "Atualiza o repositório remoto"],
+    "answer": "Copia um repositório remoto para o local"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "O que `git status` exibe?",
+    "options": ["Lista branches remotos", "Mostra arquivos modificados e o estado da área de staging", "Lista os commits antigos", "Sincroniza com o repositório remoto"],
+    "answer": "Mostra arquivos modificados e o estado da área de staging"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Qual comando é usado para registrar alterações no repositório Git?",
+    "options": ["git push", "git pull", "git log", "git commit"],
+    "answer": "git commit"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Como adicionar todos os arquivos modificados ao staging area?",
+    "options": ["git add .", "git stage all", "git commit all", "git push -a"],
+    "answer": "git add ."
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "O que `git log` exibe?",
+    "options": ["Erros do repositório", "Histórico de commits", "Lista de branches", "Logs do terminal"],
+    "answer": "Histórico de commits"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "O que `git diff` mostra?",
+    "options": ["Commits antigos", "Branches remotos", "Diferenças entre arquivos modificados e o último commit", "Log do repositório"],
+    "answer": "Diferenças entre arquivos modificados e o último commit"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Para que serve `git remote add origin <URL>`?",
+    "options": ["Inicia um projeto", "Remove arquivos do staging", "Conecta o repositório local a um repositório remoto", "Baixa branches"],
+    "answer": "Conecta o repositório local a um repositório remoto"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Qual comando envia commits para o repositório remoto?",
+    "options": ["git send", "git commit", "git push", "git merge"],
+    "answer": "git push"
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "Como obter as últimas alterações de um repositório remoto?",
+    "options": ["git clone", "git fetch", "git pull", "git checkout"],
+    "answer": "git pull"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "O que faz `git checkout -b nova-branch`?",
+    "options": ["Cria e entra em uma nova branch", "Faz backup da branch atual", "Apaga a branch atual", "Atualiza a branch remota"],
+    "answer": "Cria e entra em uma nova branch"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Qual comando combina o histórico de duas branches?",
+    "options": ["git clone", "git pull", "git merge", "git push"],
+    "answer": "git merge"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Para que serve o comando `git fetch`?",
+    "options": ["Aplica alterações locais", "Busca alterações do repositório remoto sem aplicar", "Compara commits", "Atualiza o GitHub"],
+    "answer": "Busca alterações do repositório remoto sem aplicar"
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "Como descartar modificações não comitadas em um arquivo?",
+    "options": ["git delete", "git reset file", "git checkout -- arquivo", "git push --remove"],
+    "answer": "git checkout -- arquivo"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "O que significa VCS?",
+    "options": ["Visual Code System", "Version Control System", "Verified Code Store", "Virtual Clone System"],
+    "answer": "Version Control System"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Qual é a principal diferença entre Git e GitHub?",
+    "options": ["São a mesma coisa", "Git é local, GitHub é uma plataforma de hospedagem", "GitHub é para Python, Git para Java", "Git é online, GitHub é offline"],
+    "answer": "Git é local, GitHub é uma plataforma de hospedagem"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "O que é um commit?",
+    "options": ["Um backup completo", "Um comentário sobre uma issue", "Um ponto de salvamento com histórico", "Um branch remoto"],
+    "answer": "Um ponto de salvamento com histórico"
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "O que é um branch no Git?",
+    "options": ["Um backup automático", "Um diretório de arquivos", "Uma linha independente de desenvolvimento", "Uma senha de acesso"],
+    "answer": "Uma linha independente de desenvolvimento"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "Como ver todas as branches locais?",
+    "options": ["git branches", "git list", "git branch", "git show-branch"],
+    "answer": "git branch"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Como mudar para outra branch chamada 'develop'?",
+    "options": ["git branch develop", "git move develop", "git change develop", "git checkout develop"],
+    "answer": "git checkout develop"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Como desfazer o último commit sem perder as alterações locais?",
+    "options": ["git reset --soft HEAD~1", "git revert HEAD", "git undo", "git delete commit"],
+    "answer": "git reset --soft HEAD~1"
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "Qual comando remove um arquivo do staging sem deletá-lo?",
+    "options": ["git rm", "git reset", "git remove", "git clean"],
+    "answer": "git reset"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "Qual é o nome do arquivo de configuração padrão de um repositório Git?",
+    "options": ["git.config", ".gitconfig", ".git/settings", "config.git"],
+    "answer": ".gitconfig"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Como definir o nome de usuário global no Git?",
+    "options": ["git user.name", "git config --global user.name \"Nome\"", "git set name", "git define user"],
+    "answer": "git config --global user.name \"Nome\""
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Como ver a diferença entre o repositório local e o remoto?",
+    "options": ["git log", "git diff origin/main", "git push --dry-run", "git branch -r"],
+    "answer": "git diff origin/main"
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "O que `git stash` faz?",
+    "options": ["Deleta o branch", "Salva mudanças temporariamente", "Envia arquivos ao repositório", "Apaga commits locais"],
+    "answer": "Salva mudanças temporariamente"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "Como aplicar alterações salvas com `git stash`?",
+    "options": ["git apply stash", "git pop stash", "git stash apply", "git stash restore"],
+    "answer": "git stash apply"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Como listar os stashes salvos?",
+    "options": ["git stash list", "git list stash", "git show stash", "git stash status"],
+    "answer": "git stash list"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Para que serve `git rebase`?",
+    "options": ["Renomear branches", "Mesclar com histórico linear", "Apagar commits antigos", "Redefinir configurações"],
+    "answer": "Mesclar com histórico linear"
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "O que é um 'merge conflict'?",
+    "options": ["Erro no GitHub", "Problema na clonagem", "Conflito ao unir mudanças incompatíveis", "Falha de autenticação"],
+    "answer": "Conflito ao unir mudanças incompatíveis"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "Como resolver um conflito de merge?",
+    "options": ["Apagar o repositório", "Executar git revert conflict", "Editar o arquivo e commitar", "Fazer git stash"],
+    "answer": "Editar o arquivo e commitar"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Como renomear uma branch local chamada 'dev' para 'develop'?",
+    "options": ["git rename dev develop", "git branch -m dev develop", "git mv dev develop", "git change dev develop"],
+    "answer": "git branch -m dev develop"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "O que faz o comando `git config --global`?",
+    "options": ["Aplica configurações a um projeto", "Aplica configurações a todos os repositórios", "Remove configurações", "Define repositórios remotos"],
+    "answer": "Aplica configurações a todos os repositórios"
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "Como visualizar commits de forma gráfica no terminal?",
+    "options": ["git log --graph", "git tree", "git show", "git view"],
+    "answer": "git log --graph"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "O que o comando `git rm --cached arquivo.txt` faz?",
+    "options": ["Remove o arquivo localmente", "Remove o arquivo do staging sem deletar", "Deleta permanentemente", "Remove do GitHub"],
+    "answer": "Remove o arquivo do staging sem deletar"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Qual comando descarta todos os arquivos modificados?",
+    "options": ["git clean -f", "git discard", "git reset --hard", "git restore"],
+    "answer": "git reset --hard"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Como desfazer alterações em um arquivo específico antes do commit?",
+    "options": ["git restore arquivo.txt", "git delete arquivo.txt", "git reset arquivo.txt", "git abort arquivo.txt"],
+    "answer": "git restore arquivo.txt"
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "Como ver o conteúdo de um commit específico?",
+    "options": ["git inspect", "git show <hash>", "git view", "git cat <hash>"],
+    "answer": "git show <hash>"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "Como apagar um branch local chamado `feature-x`?",
+    "options": ["git delete feature-x", "git branch -d feature-x", "git rm branch feature-x", "git reset feature-x"],
+    "answer": "git branch -d feature-x"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Como forçar a exclusão de uma branch local mesmo com alterações não mescladas?",
+    "options": ["git branch -f", "git branch --delete", "git branch -D nome-da-branch", "git branch -x"],
+    "answer": "git branch -D nome-da-branch"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "O que faz o comando `git blame arquivo.txt`?",
+    "options": ["Mostra o autor de cada linha do arquivo", "Culpa o último commit por erros", "Mostra commits conflitantes", "Lista erros de código"],
+    "answer": "Mostra o autor de cada linha do arquivo"
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "Como verificar se há alterações não comitadas?",
+    "options": ["git status", "git changes", "git commit --dry-run", "git diff remote"],
+    "answer": "git status"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "O que `HEAD` representa no Git?",
+    "options": ["O commit mais antigo", "O ponto atual no histórico de commits", "A branch principal", "O último commit remoto"],
+    "answer": "O ponto atual no histórico de commits"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Como adicionar uma mensagem ao criar um commit?",
+    "options": ["git message", "git push -m", "git commit -m \"mensagem\"", "git create -m"],
+    "answer": "git commit -m \"mensagem\""
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub? ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "O que faz o comando `git init`?",
+    "options": ["Clona um repositório", "Cria um repositório Git vazio localmente", "Baixa dependências", "Sincroniza com o GitHub"],
+    "answer": "Cria um repositório Git vazio localmente"
   },
   {
-    "question": "O que o comando 'git init' faz? ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "O que significa `origin` em `git push origin main`?",
+    "options": ["O nome do branch", "O commit inicial", "O nome do repositório remoto padrão", "O usuário GitHub"],
+    "answer": "O nome do repositório remoto padrão"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git? ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "Para que serve `git tag`?",
+    "options": ["Fazer merge automático", "Criar checkpoints estáticos no histórico", "Identificar arquivos grandes", "Marcar conflitos"],
+    "answer": "Criar checkpoints estáticos no histórico"
   },
   {
-    "question": "O que faz o comando 'git status'? ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Como listar todas as tags?",
+    "options": ["git list tags", "git show tags", "git tags", "git tag"],
+    "answer": "git tag"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Como apagar um repositório local?",
+    "options": ["git remove", "git delete repo", "rm -rf .git", "git destroy"],
+    "answer": "rm -rf .git"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "Como criar um alias para comandos Git frequentes?",
+    "options": ["git alias add", "git config --global alias.<atalho> 'comando'", "git shortcut", "git macro add"],
+    "answer": "git config --global alias.<atalho> 'comando'"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "O que representa `master` ou `main` por padrão?",
+    "options": ["Branch de backup", "Branch remota", "Branch principal", "Branch protegida"],
+    "answer": "Branch principal"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Qual comando clona um repositório remoto via SSH?",
+    "options": ["git clone https://...", "git clone ssh://...", "git ssh clone ...", "git connect ssh"],
+    "answer": "git clone ssh://..."
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Como verificar qual repositório remoto está configurado?",
+    "options": ["git remote show", "git remote -v", "git origin list", "git config list"],
+    "answer": "git remote -v"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "Qual comando exibe todas as configurações do Git?",
+    "options": ["git settings", "git show config", "git config --list", "git list all"],
+    "answer": "git config --list"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "Como configurar o e-mail global no Git?",
+    "options": ["git email set", "git config --global user.email \"email@exemplo.com\"", "git user.email", "git global email"],
+    "answer": "git config --global user.email \"email@exemplo.com\""
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "Qual comando mostra apenas os arquivos modificados?",
+    "options": ["git diff --name-only", "git files", "git modified", "git status --short"],
+    "answer": "git diff --name-only"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "O que acontece ao fazer `git pull` com conflitos?",
+    "options": ["O Git resolve sozinho", "Nada acontece", "É necessário resolver manualmente", "Os arquivos são sobrescritos"],
+    "answer": "É necessário resolver manualmente"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
-    "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
-    ],
-    "answer": "Inicializa um novo repositório Git local."
+    "question": "Como desfazer um `git add` antes do commit?",
+    "options": ["git restore", "git remove", "git reset", "git discard"],
+    "answer": "git reset"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "Qual o comando para criar um novo branch e subir para o remoto?",
+    "options": ["git new && git upload", "git checkout -b nome && git push -u origin nome", "git start branch", "git fork nome"],
+  "answer": "git checkout -b nome && git push -u origin nome"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que é um Pull Request no GitHub?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Uma solicitação para deletar o repositório",
+      "Uma maneira de propor alterações em um repositório",
+      "Uma forma de clonar um repositório",
+      "Um tipo de commit automático"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Uma maneira de propor alterações em um repositório"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Como se chama um Pull Request que ainda está sendo desenvolvido?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Finalizado",
+      "Review Pending",
+      "Draft Pull Request",
+      "Staged Pull Request"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Draft Pull Request"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual é a ação recomendada antes de solicitar revisão em um Pull Request?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Deletar os arquivos conflitantes",
+      "Comentar todos os arquivos alterados",
+      "Verificar se o código passou nos testes e conflitos foram resolvidos",
+      "Mover o código para a branch main"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Verificar se o código passou nos testes e conflitos foram resolvidos"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que acontece quando um Pull Request é aprovado com 'Approve'?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Ele é automaticamente mesclado",
+      "Ele é marcado como rascunho",
+      "A revisão é aceita e pode ser mesclado manualmente",
+      "É fechado sem mesclar"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "A revisão é aceita e pode ser mesclado manualmente"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Qual das seguintes opções **não** é um estado possível de revisão em Pull Requests?",
+    "options": ["Approve", "Request Changes", "Block Merge", "Comment"],
+    "answer": "Block Merge"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Como mencionar uma issue em um Pull Request para fechá-la automaticamente ao fazer merge?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Referência com `#issue-id` no nome da branch",
+      "Comentando com `resolve issue`",
+      "Incluindo `fixes #ID` ou `closes #ID` na descrição",
+      "Utilizando `merge #ID` no commit"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Incluindo `fixes #ID` ou `closes #ID` na descrição"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que acontece se você mesclar um Pull Request com conflitos não resolvidos?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "O GitHub resolve automaticamente",
+      "O merge falha e precisa de resolução manual",
+      "O Pull Request é fechado",
+      "Os conflitos são ignorados"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "O merge falha e precisa de resolução manual"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que é revisão de código em um Pull Request?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Atualizar a branch principal",
+      "Excluir arquivos antigos",
+      "Analisar o código proposto por outro colaborador",
+      "Deletar branches antigas"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Analisar o código proposto por outro colaborador"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Quem pode aprovar Pull Requests em um repositório privado de uma organização?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Qualquer usuário GitHub",
+      "Qualquer membro público",
+      "Somente usuários com permissões Write ou superiores",
+      "Apenas o criador do repositório"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Somente usuários com permissões Write ou superiores"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "question": "Qual botão aparece após todos os reviewers aprovarem um Pull Request sem conflitos?",
+    "options": ["Merge pull request", "Reject pull request", "Create branch", "Auto-approve"],
+    "answer": "Merge pull request"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que representa o botão 'Re-request review' em um Pull Request?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Solicita revisão de código novamente",
+      "Atualiza a branch com a última versão do repositório",
+      "Solicita aprovação automática",
+      "Cria nova branch para revisão"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Solicita revisão de código novamente"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual é a principal vantagem de trabalhar com Pull Requests?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Evita o uso de branches",
+      "Permite deploy direto em produção",
+      "Facilita colaboração e revisão de código",
+      "Permite deletar commits antigos"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Facilita colaboração e revisão de código"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que deve ser incluído na descrição de um Pull Request?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Nada, a descrição é opcional",
+      "Apenas o número da issue",
+      "Resumo das mudanças e motivo delas",
+      "Links para o GitHub Copilot"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Resumo das mudanças e motivo delas"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
-    "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
-    ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "question": "É possível editar a descrição de um Pull Request após criado?",
+    "options": ["Não", "Sim", "Apenas pelo criador do repositório", "Somente via terminal"],
+    "answer": "Sim"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
-    "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-    ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "question": "Como um Pull Request pode ser fechado sem ser mesclado?",
+    "options": ["Deletando o repositório", "Clicando em 'Close pull request'", "Fazendo push forçado", "Rodando `git close-pr`"],
+    "answer": "Clicando em 'Close pull request'"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual é o comportamento do botão 'Squash and Merge'?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Combina todos os commits em um só antes do merge",
+      "Mantém cada commit como separado",
+      "Apaga todos os commits duplicados",
+      "Remove a branch automaticamente"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Combina todos os commits em um só antes do merge"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que é a base branch de um Pull Request?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "A branch que está sendo excluída",
+      "A branch de onde partiu o código",
+      "A branch para onde o código será mesclado",
+      "A branch protegida contra conflitos"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "A branch para onde o código será mesclado"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Um Pull Request pode ser editado por outros usuários?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Nunca",
+      "Apenas pelo autor original",
+      "Sim, se a opção 'Allow edits from maintainers' estiver ativada",
+      "Apenas por administradores do GitHub"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Sim, se a opção 'Allow edits from maintainers' estiver ativada"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Quando um Pull Request é automaticamente fechado por um commit?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Quando o commit começa com 'fix'",
+      "Quando o commit está assinado",
+      "Quando o commit inclui palavras-chave como 'fixes #ID'",
+      "Quando é feito por um GitHub Copilot"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Quando o commit inclui palavras-chave como 'fixes #ID'"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual comando local é usado para atualizar uma branch local com o conteúdo da branch principal antes de abrir um Pull Request?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "git reset --hard main",
+      "git merge main",
+      "git push main",
+      "git clean && git fetch"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "git merge main"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual é o fluxo recomendado no GitHub Flow?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Fazer tudo na branch main",
+      "Criar branches para cada nova funcionalidade, abrir PR, revisar e mesclar",
+      "Trabalhar offline e enviar arquivos por e-mail",
+      "Usar branches temporários e deletar o repositório ao fim"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Criar branches para cada nova funcionalidade, abrir PR, revisar e mesclar"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual das opções é melhor para manter um histórico limpo ao mesclar Pull Requests?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Merge commit",
+      "Squash and Merge",
+      "Rebase and push",
+      "Force merge"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Squash and Merge"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Quem pode solicitar mudanças em um Pull Request?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Somente administradores",
+      "Qualquer usuário GitHub",
+      "Revisores designados com permissão",
+      "O autor do PR apenas"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Revisores designados com permissão"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "É possível abrir um Pull Request entre dois forks?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Sim, se ambos estiverem no GitHub",
+      "Não, somente no mesmo repositório",
+      "Apenas com repositórios públicos",
+      "Apenas via linha de comando"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Sim, se ambos estiverem no GitHub"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que são reviewers em um Pull Request?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Usuários convidados para visualizar o projeto",
+      "Usuários com acesso de leitura",
+      "Usuários designados para revisar o código proposto",
+      "Automatizações do GitHub"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Usuários designados para revisar o código proposto"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual vantagem de trabalhar com Draft Pull Requests?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Evita conflitos de merge",
+      "Permite testes automatizados mais rápidos",
+      "Indica que o PR ainda está em progresso, evitando revisões prematuras",
+      "Garante revisão automática por IA"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Indica que o PR ainda está em progresso, evitando revisões prematuras"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Pull Requests podem ser abertos via terminal?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Não, somente pela interface web",
+      "Sim, com ferramentas como GitHub CLI",
+      "Apenas para forks",
+      "Somente em contas Enterprise"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Sim, com ferramentas como GitHub CLI"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "É possível fazer merge automático de Pull Requests com GitHub Actions?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Sim, com regras de proteção configuradas",
+      "Não, apenas manualmente",
+      "Somente com forks públicos",
+      "Sim, mas apenas para projetos em Typescript"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Sim, com regras de proteção configuradas"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Para que servem as Issues no GitHub?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Para armazenar arquivos grandes",
+      "Para relatar bugs, sugerir melhorias e discutir tarefas",
+      "Para executar testes automatizados",
+      "Para criar cópias de repositórios"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Para relatar bugs, sugerir melhorias e discutir tarefas"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual a diferença entre uma Issue e uma Discussion no GitHub?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Issues são privadas, Discussions são públicas",
+      "Issues são para tarefas acionáveis; Discussions são para debates e ideias",
+      "Issues exigem permissões administrativas",
+      "Discussions só existem em repositórios privados"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Issues são para tarefas acionáveis; Discussions são para debates e ideias"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que são 'labels' em uma Issue?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Comandos especiais",
+      "Etiquetas para classificar e filtrar issues",
+      "Scripts executáveis",
+      "Rótulos secretos para CI/CD"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Etiquetas para classificar e filtrar issues"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual é a utilidade do campo 'Assignees' em uma Issue?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Listar os revisores do repositório",
+      "Designar responsáveis por resolver a issue",
+      "Exibir histórico de commits",
+      "Definir regras de segurança"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Designar responsáveis por resolver a issue"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que são milestones em Issues?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Branches protegidas",
+      "Objetivos de longo prazo",
+      "Agrupamentos de issues relacionadas a uma entrega específica",
+      "Ferramentas de build"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Agrupamentos de issues relacionadas a uma entrega específica"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "É possível vincular uma Issue a um Pull Request?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Sim, mencionando com 'fixes #número'",
+      "Não, são recursos isolados",
+      "Somente em contas Enterprise",
+      "Apenas com permissões de administrador"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Sim, mencionando com 'fixes #número'"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que acontece ao mesclar um Pull Request com `fixes #123` na descrição?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "O número da issue é incrementado",
+      "A issue #123 é automaticamente fechada",
+      "A issue é excluída",
+      "Nada acontece, é necessário fechar manualmente"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "A issue #123 é automaticamente fechada"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Como organizar visualmente as Issues em um quadro estilo Kanban no GitHub?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Usando GitHub Discussions",
+      "Usando GitHub Projects",
+      "Através de Markdown",
+      "Utilizando Git CLI"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Usando GitHub Projects"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que são 'saved replies' no GitHub?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Modelos de respostas salvas para comentários em Issues e PRs",
+      "Templates de Issues",
+      "Respostas automatizadas do GitHub Copilot",
+      "Mensagens de commit"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Modelos de respostas salvas para comentários em Issues e PRs"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Como criar uma Issue com um template customizado?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Criando um arquivo YAML no repositório",
+      "Adicionando um arquivo de template em `.github/ISSUE_TEMPLATE`",
+      "Usando GitHub CLI",
+      "Ativando no menu Settings > Actions"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Adicionando um arquivo de template em `.github/ISSUE_TEMPLATE`"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual item abaixo **não** pode ser configurado diretamente em uma Issue?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Labels",
+      "Milestone",
+      "Revisores",
+      "Assignees"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Revisores"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Como transformar um comentário de uma Discussion em uma nova Issue?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Não é possível",
+      "Usando a opção 'Convert to Issue'",
+      "Executando `gh issue create` via CLI",
+      "Movendo manualmente para outro repositório"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Usando a opção 'Convert to Issue'"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que são 'pinned issues'?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Issues que não podem ser fechadas",
+      "Issues com alta prioridade no GitHub Actions",
+      "Issues fixadas no topo da lista",
+      "Issues protegidas contra edição"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Issues fixadas no topo da lista"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Como colaborar com uma Issue sem ter permissões de escrita no repositório?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Editando diretamente o conteúdo",
+      "Comentando na Issue",
+      "Criando uma branch local",
+      "Mesclando PRs sem aprovação"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Comentando na Issue"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Issues podem ser criadas por usuários que não são colaboradores?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Sim, em repositórios públicos",
+      "Não, apenas colaboradores",
+      "Somente em forks",
+      "Apenas via GitHub CLI"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Sim, em repositórios públicos"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que representa o número ao lado de uma Issue como `#42`?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "O número de votos",
+      "Número da issue no repositório",
+      "A quantidade de comentários",
+      "Prioridade de execução"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Número da issue no repositório"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual o principal objetivo do recurso Discussions no GitHub?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Fazer commits automáticos",
+      "Configurar deploys",
+      "Conduzir conversas abertas entre colaboradores e comunidade",
+      "Criar código compartilhado"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Conduzir conversas abertas entre colaboradores e comunidade"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que é possível fazer com uma Issue fechada?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Reabri-la para novos comentários e ações",
+      "Removê-la do histórico",
+      "Associar múltiplos PRs",
+      "Excluir permanentemente"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Reabri-la para novos comentários e ações"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual opção permite restringir a criação de Issues?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Issue Lock",
+      "Permissões de repositório",
+      "GitHub Flow",
+      "Security Policy"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Permissões de repositório"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Como saber se uma Issue está resolvida?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Se tiver um label 'done'",
+      "Se estiver fechada",
+      "Se tiver milestone atribuída",
+      "Se tiver PR vinculado"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Se estiver fechada"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual comando do GitHub CLI cria uma nova Issue?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "`gh create issue`",
+      "`gh issue new`",
+      "`gh issue create`",
+      "`gh start issue`"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "`gh issue create`"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que acontece se você tentar criar uma Issue com o mesmo título de outra já existente?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Erro de duplicidade",
+      "É criada normalmente",
+      "É automaticamente mesclada",
+      "É movida para rascunho"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "É criada normalmente"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual a função da aba 'Projects' nos repositórios?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Gerar documentação automática",
+      "Integrar GitHub Pages",
+      "Gerenciar tarefas e acompanhar progresso",
+      "Configurar tokens e secrets"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Gerenciar tarefas e acompanhar progresso"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Discussions podem ser categorizadas por:",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Templates",
+      "Categorias personalizáveis",
+      "Permissões de commit",
+      "Número de Issues abertas"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Categorias personalizáveis"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "É possível integrar Issues com ferramentas externas como Trello ou Jira?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Sim, via GitHub Apps e webhooks",
+      "Não, somente APIs internas",
+      "Apenas com GitHub Pro",
+      "Somente via terminal"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Sim, via GitHub Apps e webhooks"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que o botão 'Lock conversation' faz em uma Issue?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Apaga todos os comentários",
+      "Impede novos comentários",
+      "Fecha a Issue permanentemente",
+      "Reseta os assignees"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Impede novos comentários"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Como acompanhar atualizações de uma Issue?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Seguindo o repositório",
+      "Clicando em 'Subscribe'",
+      "Editando a Issue",
+      "Adicionando um milestone"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Clicando em 'Subscribe'"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Quantas Issues podem ser atribuídas a um milestone?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Máximo de 10",
+      "Quantas forem necessárias",
+      "Até 50",
+      "Apenas uma"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Quantas forem necessárias"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual alternativa descreve corretamente a função de uma Issue Template?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Gerar commits automáticos",
+      "Padronizar a criação de Issues",
+      "Proteger branches",
+      "Executar testes de CI"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Padronizar a criação de Issues"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "É possível exportar Issues para análise externa?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Sim, via API do GitHub",
+      "Não, apenas visualização web",
+      "Somente usuários admin",
+      "Via botão 'Export CSV'"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Sim, via API do GitHub"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que são Branch Protection Rules no GitHub?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Regras que impedem forks",
+      "Configurações para proteger uma branch contra alterações diretas",
+      "Permissões de acesso por organização",
+      "Bloqueios automáticos de commits duplicados"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Configurações para proteger uma branch contra alterações diretas"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que pode ser exigido em uma regra de proteção de branch?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Uso de VPN",
+      "Autenticação de dois fatores",
+      "Revisões obrigatórias antes de merge",
+      "Somente commits assinados por IA"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Revisões obrigatórias antes de merge"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual ação é bloqueada por uma regra de proteção de branch padrão?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Criação de tags",
+      "Fork do repositório",
+      "Push direto para a branch protegida",
+      "Clonagem local"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Push direto para a branch protegida"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Como permitir apenas merges com revisões aprovadas?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Configurando permissões Admin",
+      "Criando uma Pull Request",
+      "Ativando Branch Protection Rules com revisão obrigatória",
+      "Habilitando GitHub Copilot"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Ativando Branch Protection Rules com revisão obrigatória"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual o papel da autenticação de dois fatores (2FA) no GitHub?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Permite clonar repositórios privados",
+      "Garante que apenas usuários verificados acessem recursos sensíveis",
+      "Evita push duplicado",
+      "Reduz o tamanho de repositórios"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Garante que apenas usuários verificados acessem recursos sensíveis"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que o GitHub recomenda para manter a segurança de tokens e credenciais?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Deixar tokens em arquivos `.env` públicos",
+      "Adicionar tokens diretamente no código",
+      "Utilizar secrets no GitHub Actions e evitar comitar credenciais",
+      "Armazenar tokens como labels"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Utilizar secrets no GitHub Actions e evitar comitar credenciais"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual permissão permite deletar um repositório em uma organização?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Read",
+      "Write",
+      "Maintain",
+      "Admin"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Admin"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que faz o recurso Secret Scanning?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Detecta arquivos duplicados",
+      "Procura tokens e senhas vazadas em commits",
+      "Remove branches órfãs",
+      "Assina automaticamente os commits"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Procura tokens e senhas vazadas em commits"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que é um Personal Access Token (PAT)?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Chave de autenticação para GitHub Actions",
+      "Token usado para autenticação de usuários via API",
+      "Backup de branches protegidas",
+      "Identificador de uma Issue"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Token usado para autenticação de usuários via API"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual é a melhor prática ao trabalhar com arquivos `.env`?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Comitá-los no repositório",
+      "Ignorá-los com `.gitignore`",
+      "Enviá-los por e-mail",
+      "Convertê-los em JSON"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Ignorá-los com `.gitignore`"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Como o GitHub avisa quando uma senha foi exposta em um commit?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Via e-mail e alertas no repositório",
+      "Por mensagem no terminal",
+      "Alterando automaticamente o commit",
+      "Apagando o branch"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Via e-mail e alertas no repositório"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual é a função dos 'Secrets' em um workflow do GitHub Actions?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Armazenar logs de build",
+      "Guardar variáveis sensíveis como tokens e chaves de API",
+      "Executar scripts automaticamente",
+      "Agendar deploys via cron"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Guardar variáveis sensíveis como tokens e chaves de API"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que acontece se um Secret é impresso no log de uma Action?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Ele aparece normalmente",
+      "É substituído por `***` para ocultar o valor",
+      "É bloqueado pela branch",
+      "É enviado por e-mail"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "É substituído por `***` para ocultar o valor"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual permissão mínima permite fazer push em uma branch?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Read",
+      "Write",
+      "Admin",
+      "Review"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Write"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "É possível configurar 2FA como obrigatório em uma organização?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Não, apenas a nível individual",
+      "Sim, via configurações da organização",
+      "Apenas com conta Free",
+      "Somente via terminal"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Sim, via configurações da organização"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O que o GitHub faz se detectar um token vazado publicamente?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Ignora",
+      "Revoga automaticamente e envia notificação",
+      "Altera a branch",
+      "Apaga o repositório"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Revoga automaticamente e envia notificação"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual das opções abaixo é uma boa prática de segurança no Git?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Fazer push de arquivos `.env` criptografados",
+      "Comitar senhas com permissão limitada",
+      "Utilizar `.gitignore` para arquivos sensíveis",
+      "Armazenar dados sensíveis em markdown"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Utilizar `.gitignore` para arquivos sensíveis"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Um colaborador com permissão `Write` pode:",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Excluir o repositório",
+      "Alterar configurações do repositório",
+      "Criar branches e enviar commits",
+      "Criar novas organizações"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Criar branches e enviar commits"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Para aplicar regras de branch protegida, é necessário ter permissão:",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Write",
+      "Admin",
+      "Read",
+      "Fork"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Admin"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual ferramenta permite auditar ações e permissões em uma organização?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "GitHub Copilot",
+      "Audit Log",
+      "Action Scanner",
+      "Branch Tracker"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Audit Log"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que o GitHub recomenda para proteger push e merge em `main`?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Usar tags no lugar de branches",
+      "Ativar regras de proteção de branch",
+      "Adicionar mais permissões de Admin",
+      "Deletar a branch após deploy"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Ativar regras de proteção de branch"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual permissão permite adicionar colaboradores a um repositório?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Admin",
+      "Write",
+      "Maintain",
+      "Read"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Admin"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "É recomendável usar Personal Access Token ao invés de senha para autenticação porque:",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "É mais rápido para clonar repositórios",
+      "É obrigatório em branches protegidas",
+      "É mais seguro e compatível com autenticação via CLI",
+      "Não requer autenticação de dois fatores"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "É mais seguro e compatível com autenticação via CLI"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que é verificação de commits assinados?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Comprovação de que um commit foi feito por um usuário autorizado",
+      "Permissão para push forçado",
+      "Tag de segurança para Issues",
+      "Verificação de conflitos"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Comprovação de que um commit foi feito por um usuário autorizado"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual dos seguintes arquivos pode ser usado para ignorar arquivos sensíveis?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      ".secrets",
+      ".env",
+      ".gitignore",
+      "secrets.yaml"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": ".gitignore"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que acontece se um usuário não tiver 2FA ativado em uma organização onde isso é exigido?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "É impedido de acessar os repositórios da organização",
+      "Tem acesso apenas a Issues",
+      "Recebe um token temporário",
+      "Pode visualizar, mas não fazer push"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "É impedido de acessar os repositórios da organização"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual é a finalidade de limitar quem pode aprovar Pull Requests em uma branch protegida?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Reduzir uso de recursos da organização",
+      "Aumentar a visibilidade dos reviewers",
+      "Garantir qualidade e responsabilidade na revisão",
+      "Permitir push direto sem aprovação"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Garantir qualidade e responsabilidade na revisão"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Para que serve o GitHub Pages?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Gerenciar pull requests automaticamente",
+      "Publicar sites estáticos a partir de um repositório",
+      "Criar ambientes de teste para GitHub Actions",
+      "Gerenciar milestones e issues"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Publicar sites estáticos a partir de um repositório"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual branch é tradicionalmente usada para publicar um site no GitHub Pages?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "dev",
+      "gh-pages",
+      "main",
+      "docs"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "gh-pages"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "É possível hospedar múltiplos sites GitHub Pages em uma única conta?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Não, apenas um por conta",
+      "Sim, um site por repositório",
+      "Apenas com GitHub Pro",
+      "Somente com repositórios privados"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Sim, um site por repositório"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Onde configurar o domínio personalizado do GitHub Pages?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Na aba Wiki",
+      "No arquivo .pages",
+      "Na aba Settings > Pages",
+      "Na descrição do repositório"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Na aba Settings > Pages"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que acontece ao adicionar um arquivo `CNAME` na raiz do repositório?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Define um domínio personalizado para o site publicado",
+      "Remove a branch gh-pages",
+      "Ativa a wiki pública",
+      "Oculta os commits antigos"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Define um domínio personalizado para o site publicado"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual linguagem é usada no conteúdo de Wikis no GitHub?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "HTML",
+      "Markdown",
+      "YAML",
+      "LaTeX"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Markdown"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual é a principal vantagem de usar Wikis no GitHub?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Controle de acessos via token",
+      "Documentar projetos diretamente dentro do repositório",
+      "Fazer backup automático da organização",
+      "Gerenciar código-fonte de builds"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Documentar projetos diretamente dentro do repositório"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Como ativar a Wiki em um repositório GitHub?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Editando o arquivo `README.md`",
+      "Habilitando em Settings > Features > Wikis",
+      "Rodando `gh wiki enable`",
+      "Criando uma branch `wiki`"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Habilitando em Settings > Features > Wikis"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "É possível clonar a Wiki de um repositório GitHub?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Não",
+      "Sim, pois ela é um repositório Git separado",
+      "Apenas via GitHub Pro",
+      "Somente com GitHub CLI"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Sim, pois ela é um repositório Git separado"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual o papel do arquivo `README.md` em um repositório?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Substitui a Wiki",
+      "Exibe informações iniciais e instruções na página do repositório",
+      "Inicia uma GitHub Action",
+      "Define permissões de acesso"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Exibe informações iniciais e instruções na página do repositório"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que significa a extensão `.md`?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Markdown",
+      "Module Definition",
+      "Meta Description",
+      "Manual Data"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Markdown"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Como criar um link em Markdown?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "`<link>`",
+      "`[texto](url)`",
+      "`url -> texto`",
+      "`{{texto}}(url)`"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "`[texto](url)`"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Como se cria uma lista não ordenada em Markdown?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Usando números seguidos de ponto",
+      "Usando asteriscos `*` ou traços `-`",
+      "Usando colchetes `[]`",
+      "Com o comando `list`"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Usando asteriscos `*` ou traços `-`"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Como se formata um texto em negrito com Markdown?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "`*texto*`",
+      "`__texto__` ou **texto**",
+      "`--texto--`",
+      "`==texto==`"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "`__texto__` ou **texto**"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual sintaxe cria um título nível 1 em Markdown?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "# Título",
+      "## Título",
+      "=== Título ===",
+      "** Título **"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "# Título"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Como adicionar uma imagem em Markdown?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "`[alt](url)`",
+      "`<img src='url'>`",
+      "`!(alt)[url]`",
+      "`@image{url}`"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "!(alt)[url]"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "É possível usar HTML dentro de arquivos Markdown no GitHub?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Não, apenas Markdown puro",
+      "Sim, com limitações de segurança",
+      "Apenas para repositórios públicos",
+      "Somente com GitHub Copilot ativado"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Sim, com limitações de segurança"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual opção permite criar uma tabela simples em Markdown?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Usando `table()`",
+      "Usando `|` e `---` para estruturar colunas",
+      "Apenas via HTML",
+      "Por comando `markdown-table`"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Usando `|` e `---` para estruturar colunas"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual o uso da aba 'Pages' em Settings do repositório?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Configurar segurança",
+      "Gerenciar CI/CD",
+      "Publicar site estático com GitHub Pages",
+      "Organizar pull requests"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Publicar site estático com GitHub Pages"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Quais tipos de arquivos podem ser usados como entrada para GitHub Pages?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Arquivos .json",
+      "Qualquer linguagem compilada",
+      "Arquivos HTML, Markdown e Jekyll",
+      "Apenas arquivos .pages"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Arquivos HTML, Markdown e Jekyll"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Como adicionar uma âncora de navegação em Markdown?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Usando `#id` no título",
+      "Criando um arquivo index.md",
+      "Usando `anchor:`",
+      "Usando `@nav`"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Usando `#id` no título"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "É possível hospedar um site com Jekyll no GitHub Pages?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Não, só sites HTML puros",
+      "Sim, o GitHub Pages tem suporte nativo a Jekyll",
+      "Somente em contas pagas",
+      "Apenas via GitHub CLI"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Sim, o GitHub Pages tem suporte nativo a Jekyll"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual o caminho de URL padrão de um GitHub Pages?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "`pages.github.com/repo`",
+      "`github.io/repo`",
+      "`usuário.github.io/repo`",
+      "`gh-pages.io/repo`"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "`usuário.github.io/repo`"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Como proteger um site do GitHub Pages com autenticação?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Usando .htaccess",
+      "GitHub Pages não suporta autenticação nativa",
+      "Adicionando um token no `CNAME`",
+      "Criando uma branch `auth`"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "GitHub Pages não suporta autenticação nativa"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual a finalidade da pasta `/docs` em um repositório GitHub?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Armazenar builds de produção",
+      "Publicar diretamente via GitHub Pages",
+      "Guardar arquivos temporários",
+      "Ocultar arquivos do GitHub CLI"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Publicar diretamente via GitHub Pages"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual é a diferença entre um README.md e uma Wiki?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "README é para documentação breve; Wiki permite estrutura extensa e navegável",
+      "README suporta links e Wiki não",
+      "Wikis só funcionam offline",
+      "README é obrigatório"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "README é para documentação breve; Wiki permite estrutura extensa e navegável"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual comando em Markdown cria código em linha?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "`<code>`",
+      "`==código==`",
+      "`código`",
+      "`#código`"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "`código`"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Como criar blocos de código com múltiplas linhas em Markdown?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Indentando com tabulação",
+      "Utilizando três crases (```) antes e depois",
+      "Colocando entre aspas",
+      "Usando parênteses duplos"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Utilizando três crases (```) antes e depois"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "É possível usar Markdown em comentários de Issues e Pull Requests?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Não",
+      "Sim, incluindo listas, links e formatação",
+      "Apenas em Issues públicas",
+      "Somente com GitHub Pro"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Sim, incluindo listas, links e formatação"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual é a principal função do GitHub Actions?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Gerenciar projetos de forma visual",
+      "Hospedar sites estáticos",
+      "Automatizar fluxos de trabalho como testes, builds e deploys",
+      "Controlar permissões em organizações"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Automatizar fluxos de trabalho como testes, builds e deploys"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Em que diretório devem ser armazenados os workflows do GitHub Actions?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "/workflow",
+      "/.github/actions",
+      "/.github/workflows",
+      "/build"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "/.github/workflows"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual formato de arquivo é usado para configurar workflows do GitHub Actions?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      ".json",
+      ".yaml ou .yml",
+      ".xml",
+      ".cfg"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": ".yaml ou .yml"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual palavra-chave inicia um workflow no GitHub Actions?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "launch",
+      "trigger",
+      "on",
+      "run"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "on"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual marketplace oferece Actions prontas para uso?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "GitHub Plugins",
+      "GitHub Central",
+      "GitHub Marketplace",
+      "Actions Cloud"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "GitHub Marketplace"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que é o GitHub Codespaces?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Um ambiente online para revisar Pull Requests",
+      "Um editor de Markdown integrado",
+      "Um ambiente de desenvolvimento baseado em nuvem",
+      "Uma extensão para sincronizar branches"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Um ambiente de desenvolvimento baseado em nuvem"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual arquivo configura o ambiente de desenvolvimento no Codespaces?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "codespaces.yaml",
+      "devcontainer.json",
+      ".codespace",
+      "settings.json"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "devcontainer.json"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual é uma vantagem do GitHub Codespaces?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Ambientes de produção com CI integrado",
+      "Hospedagem de projetos privados gratuitos",
+      "Ambientes pré-configurados acessíveis de qualquer lugar",
+      "Acesso à base de dados da GitHub API"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Ambientes pré-configurados acessíveis de qualquer lugar"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "GitHub Codespaces pode ser usado diretamente pelo navegador?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Não, apenas pelo VS Code Desktop",
+      "Sim, mas somente em organizações Enterprise",
+      "Sim, via web ou VS Code",
+      "Somente via terminal"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Sim, via web ou VS Code"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que é o GitHub Projects?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Um repositório separado para documentações",
+      "Um gerenciador visual de tarefas como Kanban ou tabelas",
+      "Uma ferramenta para editar códigos colaborativamente",
+      "Um painel de estatísticas de segurança"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Um gerenciador visual de tarefas como Kanban ou tabelas"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual é uma funcionalidade típica do GitHub Projects?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Deploy contínuo",
+      "Organização de Issues em colunas ou tabelas",
+      "Assinatura de commits",
+      "Exportação de Git history"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Organização de Issues em colunas ou tabelas"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "GitHub Projects se integra automaticamente com:",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "GitHub Pages",
+      "Releases",
+      "Issues e Pull Requests",
+      "Copilot Chat"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Issues e Pull Requests"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que é o GitHub Copilot?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Sistema de permissões de repositórios",
+      "Assistente de escrita de código com inteligência artificial",
+      "Sistema de backup automático",
+      "Ferramenta de deploy da GitHub Actions"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Assistente de escrita de código com inteligência artificial"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "GitHub Copilot pode sugerir código com base em:",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Comentários, padrões anteriores e contexto do arquivo",
+      "Número de estrelas do repositório",
+      "Permissões de organização",
+      "GitHub Pages"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Comentários, padrões anteriores e contexto do arquivo"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Onde o GitHub Copilot está disponível oficialmente?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Somente em navegadores",
+      "No GitHub CLI",
+      "No VS Code e IDEs compatíveis",
+      "Apenas via API REST"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "No VS Code e IDEs compatíveis"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual comando ativa o Copilot no VS Code?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "`Enable Copilot Mode`",
+      "`Copilot: Turn On`",
+      "`Start GitHub Bot`",
+      "`Open Chat AI`"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "`Copilot: Turn On`"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "O GitHub Copilot pode ser usado em projetos privados?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Não",
+      "Sim, com conta paga e permissões adequadas",
+      "Somente em forks",
+      "Somente com Codespaces"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Sim, com conta paga e permissões adequadas"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual a principal diferença entre uma conta Free e uma conta Pro no GitHub?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Acesso a Issues",
+      "Número de commits por dia",
+      "Recursos avançados como Copilot e estatísticas",
+      "Clonagem de repositórios públicos"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Recursos avançados como Copilot e estatísticas"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que é um repositório 'internal' no GitHub?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Repositório com acesso apenas por você",
+      "Repositório público com restrições",
+      "Repositório visível apenas dentro da organização",
+      "Fork privado com CI"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Repositório visível apenas dentro da organização"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual plano permite o uso de GitHub Enterprise Server?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Free",
+      "Pro",
+      "Team",
+      "Enterprise"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Enterprise"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Repositórios privados são permitidos no plano Free?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Não",
+      "Sim, com limitações de colaboradores",
+      "Sim, ilimitadamente",
+      "Somente com GitHub Copilot ativado"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Sim, com limitações de colaboradores"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "Qual a vantagem do plano Team no GitHub?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Copilot incluso",
+      "Maior controle de permissões e integração com SAML",
+      "Acesso a GitHub Actions ilimitado",
+      "Criação de branch protegida automática"
     ],
-    "answer": "Inicializa um novo repositório Git local."
+    "answer": "Maior controle de permissões e integração com SAML"
   },
   {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
-  },
-  {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Como um administrador pode gerenciar membros de uma organização no GitHub?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Via painel de 'People' em Settings da organização",
+      "Comando `gh admin`",
+      "Aba Wiki",
+      "Menu da aba Projects"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Via painel de 'People' em Settings da organização"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "Qual plano inclui suporte oficial da equipe GitHub?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Free",
+      "Pro",
+      "Team",
+      "Enterprise"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Enterprise"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O GitHub Pro está incluso em alguma outra assinatura?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Sim, em contas educacionais verificadas",
+      "Sim, em repositórios com +100 stars",
+      "Sim, se o Copilot for ativado",
+      "Não, é pago separadamente"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Sim, em contas educacionais verificadas"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Qual comando do GitHub CLI lista repositórios de uma organização?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "`gh repo list`",
+      "`gh org repos`",
+      "`gh list all`",
+      "`gh org repo`"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "`gh repo list`"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que o GitHub Copilot NÃO consegue fazer?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Sugerir código em tempo real",
+      "Executar código",
+      "Aprender com o contexto do arquivo",
+      "Gerar funções completas"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+    "answer": "Executar código"
   },
   {
-    "question": "O que o comando 'git init' faz?  ",
+    "question": "O que são seats em uma conta Team ou Enterprise?",
     "options": [
-      "Inicializa uma nova branch remota.",
-      "Cria um novo commit.",
-      "Inicializa um novo repositório Git local.",
-      "Faz o push de arquivos para o GitHub."
+      "Tarefas abertas",
+      "Vagas para organização de projetos",
+      "Licenças de usuários pagantes",
+      "Branches protegidas"
     ],
-    "answer": "Inicializa um novo repositório Git local."
-  },
-  {
-    "question": "Qual comando é usado para clonar um repositório Git?  ",
-    "options": ["git clone", "git download", "git fork", "git copy"],
-    "answer": "git clone"
+    "answer": "Licenças de usuários pagantes"
   },
   {
-    "question": "O que faz o comando 'git status'?  ",
+    "question": "Como acessar o histórico de billing de uma organização?",
     "options": [
-      "Mostra o estado atual da branch de trabalho.",
-      "Exibe as alterações salvas no repositório remoto.",
-      "Cria uma nova branch.",
-      "Apaga os arquivos que foram modificados."
+      "Aba 'Projects'",
+      "Settings > Billing",
+      "Aba 'Issues'",
+      "GitHub CLI"
     ],
-    "answer": "Mostra o estado atual da branch de trabalho."
+    "answer": "Settings > Billing"
   },
   {
-    "question": "Qual é a principal diferença entre git e GitHub?  ",
+    "question": "O que diferencia repositórios públicos de privados?",
     "options": [
-      "São a mesma coisa.",
-      "Git é uma plataforma de hospedagem, e GitHub é uma ferramenta de linha de comando.",
-      "Git só funciona em Linux, enquanto o GitHub é multiplataforma.",
-      "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
+      "Repositórios privados exigem mais de uma branch",
+      "Apenas repositórios públicos permitem GitHub Pages",
+      "Visibilidade de acesso ao conteúdo e permissões",
+      "Forks não são permitidos em privados"
     ],
-    "answer": "Git é um sistema de controle de versão distribuído, e GitHub é uma plataforma que hospeda repositórios Git."
-  }
-]
+    "answer": "Visibilidade de acesso ao conteúdo e permissões"
+  }]
