@@ -630,7 +630,7 @@ footer {
         max-width: 100%;
     }
 
-  .screen {
+  .quiz-screen {
         width: 100%;
     }
 }
@@ -638,8 +638,6 @@ footer {
 @media (min-width: 768px) {
   .quiz-screen {
     width: 600px;
-    max-width: 600px;
-    min-width: 600px;
     margin: 0 auto;
   }
 }
