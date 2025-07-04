@@ -41,6 +41,7 @@ body {
     /* cor de fundo fixa */
     transition: all 0.3s ease;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .start-screen-top-buttons a:hover {
